@@ -28,11 +28,11 @@ In this step, you will set up a new environment that we will install TensorFlow
 into.  To setup the environment, open the anaconda prompt and run the following
 command (in Linux and Mac, this can also just be run in the terminal):
 
-'''
+```
 (base)$ conda -n tf pip conda_nb python=3.6
 (base)$ source activate tf
 (tf)$ conda install -c conda-forge matplotlib tqdm
-'''
+```
 
 This command will create a new environment called “tf” that has pip and all the
 Jpyter Notebook packages installed for python version 3.6.  If you are familiar
@@ -47,9 +47,9 @@ It is now time!  We will use the recommended method of installing TensorFlow,
 that is through pip rather than conda.  Make sure you are in the “tf”
 environment and type the following comman:
 
-'''
+```
 (tf)$ pip install --ignore-installed --upgrade tensorflow
-'''
+```
 
 This command will install TensorFlow in the environment we created in the
 previous step.  After this finishes, you can proceed to open the notebooks in
