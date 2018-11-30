@@ -1,0 +1,23 @@
+*.pyc
+*~
+*.swp
+*.bak
+
+#Don't track mac file
+.DS_Store
+
+#Don't track mac/linux .inputrc files
+.inputrc
+
+#don't include pickle or other data files in git repo.
+*.pkl
+*.idx*-ubyte
+
+#don't include any log files
+*events.out.tfevents.*
+
+#don't include notebook checkpoint files
+*-checkpoint.ipynb
+
+#don't include any word documents, should make PDFs and or markdown files
+*.docx
