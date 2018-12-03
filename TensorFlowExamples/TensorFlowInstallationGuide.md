@@ -1,9 +1,9 @@
-# TensorFlow Installation Guide:
+# Tensorflow Installation Guide:
 
-This guide will instruct you on how to install TensorFlow on your machine using 
+This guide will instruct you on how to install Tensorflow on your machine using 
 Anaconda.  The install done here is a basic install for the purposes of the 
-tutorials in this repo.  This install will not include TensorFlow’s GPU 
-compatibilities.  For more information, please see the TensorFlow installation 
+tutorials in this repo.  This install will not include Tensorflow’s GPU 
+compatibilities.  For more information, please see the Tensorflow installation 
 page on their [website](https://www.tensorflow.org/install/).
 
 ## Step 1: Install Anaconda
@@ -24,14 +24,14 @@ be setting up our own virtual environment.
 
 ## Step 2: Setup New Anaconda Environment
 
-In this step, you will set up a new environment that we will install TensorFlow
+In this step, you will set up a new environment that we will install Tensorflow
 into.  To setup the environment, open the anaconda prompt and run the following
 command (in Linux and Mac, this can also just be run in the terminal):
 
 ```
 (base)$ conda -n tf pip conda_nb python=3.6
 (base)$ source activate tf
-(tf)$ conda install -c conda-forge matplotlib tqdm
+(tf)$ conda install -c conda-forge matplotlib tqdm ipywidgets
 ```
 
 This command will create a new environment called “tf” that has pip and all the
@@ -39,11 +39,12 @@ Jpyter Notebook packages installed for python version 3.6.  If you are familiar
 with Anaconda and wish to include other packages, feel free to do so.  The next
 line switches the current environment from “base” to the new “tf” environment we
 just created.  The last line installs matplotlib, a library of MatLab like
-plotting tools, and TQDM, a progress bar tool that is nice to have.
+plotting tools, and TQDM, a progress bar tool that is nice to have. The
+ipywidgets package allows the use of widgets in jupyter.
 
-## Step 3: Install TensorFlow
+## Step 3: Install Tensorflow
 
-It is now time!  We will use the recommended method of installing TensorFlow,
+It is now time!  We will use the recommended method of installing Tensorflow,
 that is through pip rather than conda.  Make sure you are in the “tf”
 environment and type the following comman:
 
@@ -51,9 +52,9 @@ environment and type the following comman:
 (tf)$ pip install --ignore-installed --upgrade tensorflow
 ```
 
-This command will install TensorFlow in the environment we created in the
+This command will install Tensorflow in the environment we created in the
 previous step.  After this finishes, you can proceed to open the notebooks in
 this tutorial set.  Make sure you open them with the Jupyter version that is
-installed in the same environment as TensorFlow (in windows, it will have (tf)
+installed in the same environment as Tensorflow (in windows, it will have (tf)
 in front of it in the start menu, you can also launch it from the CLI or form
 the anaconda navigator in the correct environment.
