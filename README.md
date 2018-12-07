@@ -57,6 +57,11 @@ To install it, execute the following command in the Anaconda Prompt:
 (env)$ conda install spyder
 ```
 
+### Optimization By Stochastic Gradient Descent
+This tutorial introduces Optimization and Stochastic Gradient Descent, the
+numerical method most commonly used to train neural networks.  This tutorial
+goes through an example case fitting a curve to a nonlinear dataset.
+
 ### MNIST Integer Classification
 This tutorial will build a simple MultiLayered Perceptron to classify a set of
 images of handwritten numerals.  This is a classic Machine Learning Problem and
