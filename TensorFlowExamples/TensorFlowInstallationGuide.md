@@ -29,7 +29,7 @@ into.  To setup the environment, open the anaconda prompt and run the following
 command (in Linux and Mac, this can also just be run in the terminal):
 
 ```
-(base)$ conda -n tf pip conda_nb python=3.6
+(base)$ conda create -n tf pip conda_nb python=3.7
 (base)$ source activate tf
 (tf)$ conda install -c conda-forge matplotlib tqdm ipywidgets
 ```
